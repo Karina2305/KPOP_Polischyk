@@ -1,0 +1,780 @@
+{
+  "results": [
+    {
+      "gender": string,
+      "name": {
+        "title": string,
+        "first": string,
+        "last": string
+      },
+      "location": {
+        "street": {
+          "number": number,
+          "name": string
+        },
+        "city": string,
+        "state": string,
+        "country": string,
+        "postcode": string,
+        "coordinates": {
+          "latitude": string,
+          "longitude": string
+        },
+        "timezone": {
+          "offset": string,
+          "description": string
+        }
+      },
+      "email": string,
+      "login": {
+        "uuid": string,
+        "username": string,
+        "password": string,
+        "salt": string,
+        "md5": string,
+        "sha1": string,
+        "sha256": string
+      },
+      "dob": {
+        "date": string,
+        "age": number
+      },
+      "registered": {
+        "date": string,
+        "age": number
+      },
+      "phone": string,
+      "cell": string,
+      "id": {
+        "name": string,
+        "value": string
+      },
+      "picture": {
+        "large": string,
+        "medium": string,
+        "thumbnail": string
+      },
+      "nat": string
+    }
+  ],
+  "info": {
+    "seed": string,
+    "results": number,
+    "page": number,
+    "version": string
+  }
+}
+
+
+
+
+
+
+
+
+
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Nanna",
+        "last": "Bratvold"
+      },
+      "location": {
+        "street": {
+          "number": 2341,
+          "name": "Antenneveien"
+        },
+        "city": "Høle",
+        "state": "Sør-Trøndelag",
+        "country": "Norway",
+        "postcode": "0179",
+        "coordinates": {
+          "latitude": "40.6881",
+          "longitude": "50.7066"
+        },
+        "timezone": {
+          "offset": "+9:00",
+          "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+        }
+      },
+      "email": "nanna.bratvold@example.com",
+      "login": {
+        "uuid": "b1fd305b-0e3d-472a-a40f-0044d3cc0aa7",
+        "username": "yellowbear132",
+        "password": "000001",
+        "salt": "6mZCiQAs",
+        "md5": "913e24865758a5a15a2e1dc98db5db51",
+        "sha1": "6972c3fae33eed49c77c39426af39b459773c6ec",
+        "sha256": "c0609ad9440718be22d9c2fd9a6fd5d5a28f5a86c2b7cafa2d6f53eeeb245720"
+      },
+      "dob": {
+        "date": "1958-11-30T22:43:35.793Z",
+        "age": 63
+      },
+      "registered": {
+        "date": "2007-04-29T01:06:24.244Z",
+        "age": 15
+      },
+      "phone": "37706644",
+      "cell": "98086496",
+      "id": {
+        "name": "FN",
+        "value": "30115836494"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/78.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/78.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/78.jpg"
+      },
+      "nat": "NO"
+    }
+  ],
+  "info": {
+    "seed": "136981c2823e9fd6",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
+
+
+[
+  {
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "title": "Mens Casual Premium Slim Fit T-Shirts ",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "id": 3,
+    "title": "Mens Cotton Jacket",
+    "price": 55.99,
+    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  },
+  {
+    "id": 4,
+    "title": "Mens Casual Slim Fit",
+    "price": 15.99,
+    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 5,
+    "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+    "price": 695,
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  }
+]
+
+
+
+
+
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Jimi",
+        "last": "Huotari"
+      },
+      "location": {
+        "street": {
+          "number": 9224,
+          "name": "Nordenskiöldinkatu"
+        },
+        "city": "Liminka",
+        "state": "Tavastia Proper",
+        "country": "Finland",
+        "postcode": 42557,
+        "coordinates": {
+          "latitude": "-26.3197",
+          "longitude": "-13.3521"
+        },
+        "timezone": {
+          "offset": "+3:30",
+          "description": "Tehran"
+        }
+      },
+      "email": "jimi.huotari@example.com",
+      "login": {
+        "uuid": "539e77d5-1989-413c-84e4-de52ee3ee3e7",
+        "username": "tinyelephant884",
+        "password": "deadman",
+        "salt": "gJFKhlXd",
+        "md5": "39b9dcd0ce640059c45cad88ce15efd5",
+        "sha1": "f1d5e02f82fd578a9ebe03388c3a6cbfd27b9f3e",
+        "sha256": "fab4649660eaf8e8044198789e7cbd31c93ad893bd93516bbc9c4e0520d6852b"
+      },
+      "dob": {
+        "date": "1996-04-14T22:12:20.808Z",
+        "age": 26
+      },
+      "registered": {
+        "date": "2008-10-21T08:35:57.123Z",
+        "age": 14
+      },
+      "phone": "09-828-919",
+      "cell": "044-523-61-22",
+      "id": {
+        "name": "HETU",
+        "value": "NaNNA953undefined"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/13.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/13.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/13.jpg"
+      },
+      "nat": "FI"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Alix",
+        "last": "Duval"
+      },
+      "location": {
+        "street": {
+          "number": 4305,
+          "name": "Rue Barrème"
+        },
+        "city": "Limoges",
+        "state": "Charente",
+        "country": "France",
+        "postcode": 25618,
+        "coordinates": {
+          "latitude": "13.8032",
+          "longitude": "-88.7691"
+        },
+        "timezone": {
+          "offset": "-2:00",
+          "description": "Mid-Atlantic"
+        }
+      },
+      "email": "alix.duval@example.com",
+      "login": {
+        "uuid": "5a244f94-6804-4e66-a722-befbcfc8e173",
+        "username": "bigkoala311",
+        "password": "trans",
+        "salt": "R50RW9UF",
+        "md5": "28cae200c638c98ac70cbf9d16150fed",
+        "sha1": "02fd2baf7cbc3816f2eb7c822bc80e909c12dfb2",
+        "sha256": "9c7267000382c9bfac6b2233e918d76c72834200075e8eed80fc9ba0fc0b6bfc"
+      },
+      "dob": {
+        "date": "1998-05-26T20:02:45.988Z",
+        "age": 24
+      },
+      "registered": {
+        "date": "2018-09-09T05:31:25.009Z",
+        "age": 4
+      },
+      "phone": "02-87-98-86-92",
+      "cell": "06-58-24-25-35",
+      "id": {
+        "name": "INSEE",
+        "value": "2980423533631 36"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/6.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/6.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/6.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "علی رضا",
+        "last": "پارسا"
+      },
+      "location": {
+        "street": {
+          "number": 2796,
+          "name": "امام خمینی"
+        },
+        "city": "بندرعباس",
+        "state": "خوزستان",
+        "country": "Iran",
+        "postcode": 37159,
+        "coordinates": {
+          "latitude": "80.4653",
+          "longitude": "113.9136"
+        },
+        "timezone": {
+          "offset": "+2:00",
+          "description": "Kaliningrad, South Africa"
+        }
+      },
+      "email": "aalyrd.prs@example.com",
+      "login": {
+        "uuid": "16cbfcda-f38c-4373-9583-5865941949c8",
+        "username": "organicbird688",
+        "password": "dirtbike",
+        "salt": "hNfq1sQC",
+        "md5": "38e32fb34a2744ed6c138558b74e5bb2",
+        "sha1": "918462f014f9902a5c2f92e45554c2cccbfd5dfe",
+        "sha256": "11cdf182cab152d3def801a34c29935a1d45a5ee0eb60c3b58a5ef0f23813528"
+      },
+      "dob": {
+        "date": "1951-03-07T14:41:08.865Z",
+        "age": 71
+      },
+      "registered": {
+        "date": "2003-06-17T10:28:38.436Z",
+        "age": 19
+      },
+      "phone": "064-56294246",
+      "cell": "0959-449-3218",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/84.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/84.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/84.jpg"
+      },
+      "nat": "IR"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Radogost",
+        "last": "Tatarnyuk"
+      },
+      "location": {
+        "street": {
+          "number": 6354,
+          "name": "Provulok Lomonosova"
+        },
+        "city": "Ananyiv",
+        "state": "Chernivecka",
+        "country": "Ukraine",
+        "postcode": 18060,
+        "coordinates": {
+          "latitude": "-39.6680",
+          "longitude": "-136.5485"
+        },
+        "timezone": {
+          "offset": "-9:00",
+          "description": "Alaska"
+        }
+      },
+      "email": "radogost.tatarnyuk@example.com",
+      "login": {
+        "uuid": "4542a14d-4b74-490a-90da-78b4e746a9f7",
+        "username": "blackcat927",
+        "password": "rupert",
+        "salt": "4KiE4cWw",
+        "md5": "46152063948c48353a49103b97b374b4",
+        "sha1": "be0916e9c6a4793f6ff718c61f4b419f0de44bc7",
+        "sha256": "f7bd1bb0920f4a6a71797f4e80fc1fa8fc173cc3470a22b2693fcdfb9cb39afc"
+      },
+      "dob": {
+        "date": "1976-11-22T05:25:16.576Z",
+        "age": 45
+      },
+      "registered": {
+        "date": "2021-09-18T19:46:09.374Z",
+        "age": 1
+      },
+      "phone": "(098) V50-4010",
+      "cell": "(067) A43-7996",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/3.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/3.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/3.jpg"
+      },
+      "nat": "UA"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Nolan",
+        "last": "Lefevre"
+      },
+      "location": {
+        "street": {
+          "number": 7798,
+          "name": "Avenue Debrousse"
+        },
+        "city": "Colombes",
+        "state": "Gironde",
+        "country": "France",
+        "postcode": 82355,
+        "coordinates": {
+          "latitude": "-13.7311",
+          "longitude": "163.4122"
+        },
+        "timezone": {
+          "offset": "-6:00",
+          "description": "Central Time (US & Canada), Mexico City"
+        }
+      },
+      "email": "nolan.lefevre@example.com",
+      "login": {
+        "uuid": "542ef7bd-1a80-4f1e-927e-0c5c21e9f0bd",
+        "username": "bluelion648",
+        "password": "froggie",
+        "salt": "RVsUs6u7",
+        "md5": "c0d7b00d4ff79078af0ba27f8a81a908",
+        "sha1": "25826c1019289c5e1a9c85b17cc49e6e5ccd7960",
+        "sha256": "57c54867e244fb34d3d667b746c9e38493a9b26a7f7638bdfaebdaab164d59c7"
+      },
+      "dob": {
+        "date": "1982-05-10T17:20:50.101Z",
+        "age": 40
+      },
+      "registered": {
+        "date": "2016-08-20T23:08:25.868Z",
+        "age": 6
+      },
+      "phone": "01-37-33-05-97",
+      "cell": "06-63-75-43-60",
+      "id": {
+        "name": "INSEE",
+        "value": "1820487879141 19"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/53.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/53.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/53.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Kevin",
+        "last": "Tucker"
+      },
+      "location": {
+        "street": {
+          "number": 3151,
+          "name": "Mcgowen St"
+        },
+        "city": "Bathurst",
+        "state": "South Australia",
+        "country": "Australia",
+        "postcode": 760,
+        "coordinates": {
+          "latitude": "10.2921",
+          "longitude": "-149.5765"
+        },
+        "timezone": {
+          "offset": "0:00",
+          "description": "Western Europe Time, London, Lisbon, Casablanca"
+        }
+      },
+      "email": "kevin.tucker@example.com",
+      "login": {
+        "uuid": "60303074-cef9-464c-83c0-45cbc4b4e5f5",
+        "username": "goldenrabbit544",
+        "password": "davide",
+        "salt": "wl4yiZt7",
+        "md5": "b12a01b072abd3c7f42ff8bb44ba3187",
+        "sha1": "371b037b03955b6e80aec2ccf25e0eacaa43cd55",
+        "sha256": "5254087d476d9d0d96603d8348de7268c0bbdc34f888cc4875183fac05c3ed67"
+      },
+      "dob": {
+        "date": "1974-10-30T06:19:11.043Z",
+        "age": 48
+      },
+      "registered": {
+        "date": "2021-11-12T18:12:03.773Z",
+        "age": 0
+      },
+      "phone": "06-8557-1824",
+      "cell": "0485-946-675",
+      "id": {
+        "name": "TFN",
+        "value": "721201244"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/23.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/23.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/23.jpg"
+      },
+      "nat": "AU"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Adriana",
+        "last": "Van der Eng"
+      },
+      "location": {
+        "street": {
+          "number": 8944,
+          "name": "Kattegat"
+        },
+        "city": "Biervliet",
+        "state": "Limburg",
+        "country": "Netherlands",
+        "postcode": "7463 LL",
+        "coordinates": {
+          "latitude": "-56.2091",
+          "longitude": "22.8987"
+        },
+        "timezone": {
+          "offset": "-10:00",
+          "description": "Hawaii"
+        }
+      },
+      "email": "adriana.vandereng@example.com",
+      "login": {
+        "uuid": "9ab816b6-418f-4ba5-b875-b1ecebf27200",
+        "username": "crazybear453",
+        "password": "kate",
+        "salt": "nh95gLFD",
+        "md5": "075f02ffaa69b0be5475d65395a7252f",
+        "sha1": "058b972e492082f73535de7d3c810c6e24779110",
+        "sha256": "fad5c20bdd2084e1e63de083a525ec2cb6d997b535836144b90f62f6ec83be40"
+      },
+      "dob": {
+        "date": "1974-05-06T08:34:38.133Z",
+        "age": 48
+      },
+      "registered": {
+        "date": "2005-11-18T02:24:42.180Z",
+        "age": 16
+      },
+      "phone": "(0413) 468898",
+      "cell": "(06) 31487585",
+      "id": {
+        "name": "BSN",
+        "value": "21287143"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/77.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/77.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/77.jpg"
+      },
+      "nat": "NL"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Amaury",
+        "last": "Lecomte"
+      },
+      "location": {
+        "street": {
+          "number": 1444,
+          "name": "Avenue Paul Eluard"
+        },
+        "city": "Marseille",
+        "state": "Savoie",
+        "country": "France",
+        "postcode": 44503,
+        "coordinates": {
+          "latitude": "14.6290",
+          "longitude": "144.6679"
+        },
+        "timezone": {
+          "offset": "+9:00",
+          "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+        }
+      },
+      "email": "amaury.lecomte@example.com",
+      "login": {
+        "uuid": "75819453-e62d-45f4-9c78-f3ac88b2e46d",
+        "username": "bluewolf181",
+        "password": "bedford",
+        "salt": "92yswn5T",
+        "md5": "cdc5234309b3ab945b0a27ad97b90207",
+        "sha1": "a4ebde50e1c5db3deeb957f3b740e2f618b08654",
+        "sha256": "6faf2ba61f55fb8b410eea3ef27b6ddf597c8c2e370b9915c15cb90cf93b110e"
+      },
+      "dob": {
+        "date": "1975-03-07T07:13:26.863Z",
+        "age": 47
+      },
+      "registered": {
+        "date": "2017-02-11T22:31:45.038Z",
+        "age": 5
+      },
+      "phone": "03-01-75-18-66",
+      "cell": "06-77-46-01-07",
+      "id": {
+        "name": "INSEE",
+        "value": "1750256774135 55"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/30.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/30.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/30.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Monsieur",
+        "first": "Benjamin",
+        "last": "Henry"
+      },
+      "location": {
+        "street": {
+          "number": 8233,
+          "name": "Avenue Tony-Garnier"
+        },
+        "city": "Warth-Weiningen",
+        "state": "Basel-Landschaft",
+        "country": "Switzerland",
+        "postcode": 8735,
+        "coordinates": {
+          "latitude": "7.1416",
+          "longitude": "149.9130"
+        },
+        "timezone": {
+          "offset": "+4:30",
+          "description": "Kabul"
+        }
+      },
+      "email": "benjamin.henry@example.com",
+      "login": {
+        "uuid": "6abc8b42-3124-4660-ba0c-91ee17532fe1",
+        "username": "whitecat167",
+        "password": "dotcom",
+        "salt": "qZni3m85",
+        "md5": "7d3e94cbcaa9ae585ee0fe1a1a981453",
+        "sha1": "40d1a18f157dd1ff97d846401bbd3147e271463f",
+        "sha256": "e7a8a193fdadc917c558ecd4f331897369a0bbab7f78ab61b4fb5183821fbb4c"
+      },
+      "dob": {
+        "date": "1979-05-23T20:03:12.147Z",
+        "age": 43
+      },
+      "registered": {
+        "date": "2015-12-07T11:45:37.012Z",
+        "age": 6
+      },
+      "phone": "079 082 68 60",
+      "cell": "077 340 45 41",
+      "id": {
+        "name": "AVS",
+        "value": "756.6463.0623.99"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/77.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/77.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/77.jpg"
+      },
+      "nat": "CH"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Roland",
+        "last": "Burns"
+      },
+      "location": {
+        "street": {
+          "number": 1585,
+          "name": "Park Lane"
+        },
+        "city": "Loughrea",
+        "state": "Wexford",
+        "country": "Ireland",
+        "postcode": 23737,
+        "coordinates": {
+          "latitude": "18.1047",
+          "longitude": "4.3008"
+        },
+        "timezone": {
+          "offset": "+5:00",
+          "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+        }
+      },
+      "email": "roland.burns@example.com",
+      "login": {
+        "uuid": "7840682c-d148-425c-8661-56aceedd527d",
+        "username": "whitegoose219",
+        "password": "highheel",
+        "salt": "9188g8he",
+        "md5": "eab43660b2f5517e1911ed5310dbab7a",
+        "sha1": "8715201351147218a76505ec1dc8be0d5da0ed08",
+        "sha256": "5f44f71f6b9f25b3594f866108c1b5daf1ca21b70090dffc2976f31ec458213d"
+      },
+      "dob": {
+        "date": "1996-08-18T09:32:12.034Z",
+        "age": 26
+      },
+      "registered": {
+        "date": "2004-03-31T13:06:42.821Z",
+        "age": 18
+      },
+      "phone": "021-749-9607",
+      "cell": "081-339-9414",
+      "id": {
+        "name": "PPS",
+        "value": "0472691T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/54.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/54.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/54.jpg"
+      },
+      "nat": "IE"
+    }
+  ],
+  "info": {
+    "seed": "398f5be4bc037d19",
+    "results": 10,
+    "page": 1,
+    "version": "1.4"
+  }
+}

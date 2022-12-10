@@ -1,0 +1,19 @@
+<mat-dialog-content class="mat-typography">
+
+<p>Ім'я: {{data.name.first}}</p>
+<p>Фамілія: {{data.name.last}}</p>
+<p>Звертатися як: {{data.name.title}}</p>
+<p>Дата народження: {{data.dob.date | cutDate}}</p>
+<p>Країна: {{data.location.country}}</p>
+<p>Місто: {{data.location.city}}</p>
+<p>Штат: {{data.location.state}}</p>
+<p>Поштовий код: {{data.location.postcode}}</p>
+<p>Номер телефону: {{data.phone}}</p>
+<p> Емеїл: {{data.email}}</p>
+<p><img [src]="data.picture.medium"> </p>
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Закрити</button>
+  <button mat-button (click)="addIzbranne(data)">Добавити в вибране</button>
+</mat-dialog-actions>

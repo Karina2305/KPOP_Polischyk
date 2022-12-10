@@ -1,0 +1,51 @@
+<div class="page-header">
+  <h1>Лабораторна робота №4</h1>
+</div>
+<div class="panel">
+  <div class="form-inline">
+    <div class="form-group">
+      <div class="col-md-5">
+        <input class="form-control" [(ngModel)]="firstname" placeholder = "Ім'я*"/>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-5">
+        <input class="form-control" [(ngModel)]="lastname" placeholder="Прізвише*" />
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-5">
+        <input class="form-control" [(ngModel)]="patronymic" placeholder="По-батькові" />
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-5">
+        <input type = "number" class="form-control" [(ngModel)]="score" placeholder="Оцінка*" />
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-offset-2 col-md-8">
+        <button class="btn btn-default" (click)="addItem(firstname, lastname, patronymic, score)">Додати</button>
+      </div>
+    </div>
+  </div>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Ім'я</th>
+      <th>Прізвише</th>
+      <th>По-батькові</th>
+      <th>Оцінка</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let student of items">
+      <td>{{student.firstname}}</td>
+      <td>{{student.lastname}}</td>
+      <td>{{student.patronymic}}</td>
+      <td>{{student.score}}</td>
+    </tr>
+    </tbody>
+  </table>
+  <child-comp>{{arithmeticmean}}</child-comp>
+</div>

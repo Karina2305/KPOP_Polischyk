@@ -1,0 +1,28 @@
+<div *ngIf="responses">
+  <table>
+    <tr>
+      <th>Номер</th>
+      <th>Ім’я</th>
+      <th>Емейл</th>
+      <th>Логін</th>
+      <th>Пароль</th>
+      <th>Телефон</th>
+      <th></th>
+    </tr>
+
+    <tr *ngFor="let res of responses['results']; let i = index">
+      <td>{{i}}</td>
+      <td>{{res.name.first}}</td>
+      <td>{{res.email}}</td>
+      <td>{{res.login.username}}</td>
+      <td>{{res.login.password}}</td>
+      <td>{{res.phone}}</td>
+      <td>
+        <button  mat-raised-button color="primary" (click)="openDialog(res, i)">Детальніше</button>
+      </td>
+    </tr>
+
+  </table>
+</div>
+<br><br>
+

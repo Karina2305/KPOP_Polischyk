@@ -1,0 +1,14 @@
+<div>
+
+  <app-persons></app-persons>
+
+  <button  mat-raised-button color="primary" (click)="flag1=!flag1">Вибране</button>
+
+  <br>
+
+  <div *ngIf="flag1">
+
+    <app-vibrane></app-vibrane>
+  </div>
+
+</div>

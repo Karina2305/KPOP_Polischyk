@@ -1,0 +1,42 @@
+<div class="win">
+
+<h2>Информация об организации</h2>
+
+<p><b>Наименование *</b> <input class="a1 inpSt" type="text" [(ngModel)]="inp1"></p>
+  <p class="red mrS">{{errInp1}}</p>
+<p><b>Город *</b> <input  class="a2 inpSt" type="text" [(ngModel)]="inp2"></p>
+  <p class="red mrS">{{errInp2}}</p>
+<p><b>Адрес *</b> <input class="a3 inpSt" type="text" [(ngModel)]="inp3"></p>
+  <p class="red mrS">{{errInp3}}</p>
+<h2>Контактное лицо</h2>
+<p><b>Контактное лицо *</b> <input class="a4 inpSt" type="text" [(ngModel)]="inp4"></p>
+  <p class="red mrS">{{errInp4}}</p>
+<p><b>Телефон *</b>  <span class="a5"><b>38</b><input class="inpSt" type="text" [(ngModel)]="inp5"></span></p>
+  <p class="red mrS">{{errInp5}}</p>
+<p><b>E-mail *</b> <input class="a6 inpSt" type="text" [(ngModel)]="inp6"></p>
+  <p class="red mrS">{{errInp6}}</p>
+
+<h2>Информация об объекте</h2>
+<p><b>Название *</b> <input class="a7 inpSt" type="text" [(ngModel)]="inp7"></p>
+  <p class="red mrS">{{errInp7}}</p>
+<p>
+  Область приминения ПТО
+  <button class="btnS2 a9" (click)="fillOp('Отопления')">Отопления</button>
+  <button class="btnS2" (click)="fillOp('Вентиляция')">Вентиляция</button>
+  <button class="btnS2" (click)="fillOp('ГВС')">ГВС</button>
+  <span class="spS">{{op}}</span>
+
+</p>
+  <p class="red spS10">{{errInp8}}</p>
+
+
+<button class="btnS2 a8" (click)="checkVal_()">Отправить</button>
+  <h2 class="greenC">{{outRes}}</h2>
+</div>
+
+
+<br><br><br><br><br><br>
+
+
+
+
